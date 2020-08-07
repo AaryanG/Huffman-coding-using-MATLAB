@@ -32,10 +32,4 @@ for(k=1:n)
 fprintf(1,'Entropy is %f bits',H);
 N=H/avglen;
 fprintf('\n Efficiency is:%f',N);
-for(r=1:n)
-   l(r)=length(t{r});
-end
-m=max(l)
-s=min(l)
-v=m-s;
-fprintf('the variance is:%d',v);
+
